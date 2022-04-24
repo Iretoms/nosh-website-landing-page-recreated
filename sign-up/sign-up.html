@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosh</title>
+    <link rel="stylesheet" href="./sign-up.css">
+</head>
+<body>
+    <section class="sign-up">
+        <article class="sign-up__images">
+            <div>
+                <img src="../Images/noshlogo.b45bce0c.svg" alt="" class="first-image"/>
+                <img src="../Images/sign-in.bb78c186.png" alt="" class="second-image"/> 
+            </div>
+        </article>
+
+        <article class="sign-up__form">
+            <h1>Register</h1>
+            <form>
+                <input type="text" id="name" placeholder="Name"/>
+                <input type="email" id="email" placeholder="Email"/>
+                <select id="country" >
+                    <option value="nigeria">Nigeria</option>
+                    <option value="canada">Canada</option>
+                    <option value="uk">United kingdom</option>
+                </select>
+                <input type="number" id="phoneNumber" placeholder="Phone Number"/>
+                <input type="password" id="Password" placeholder="Password"/>
+                <input type="password" id="confirmPassword" placeholder="Confirm Password"/>
+                <div class="sign-up__checkbox">
+                    <input type="checkbox" id="agree-terms">
+                    <label for="agree-terms">
+                    <p>
+                    I accept Nosh's <a href="#">Terms &amp; <br> Conditions</a>
+                    </p>  
+                    </label>
+                </div>
+                <button type="submit" class="button">Get Started</button>
+            </form>
+            <p class="para">
+                Already own an account? <a href="#">Login</a>
+            </p>
+        </article>
+    </section>
+</body>
+</html>

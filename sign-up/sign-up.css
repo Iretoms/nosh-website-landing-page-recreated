@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@100&family=Mulish:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #30bced;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+.sign-up {
+    display: flex;
+    width: 100%;
+}
+
+.sign-up__images {
+    background: rgba(238, 238, 248, 0.3);
+    margin: 1.5rem;
+    margin-right: 8rem;
+    padding: 2.3rem;
+    border-radius: 30px;
+   
+}
+
+.sign-up__images div {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up__images div .first-image {
+    height: 2.3rem;
+    width: 2.3rem;
+}
+
+.sign-up__images div .second-image {
+    height: 32rem;
+    width: 35rem;
+}
+
+.sign-up__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.sign-up__form h1 {
+    align-self: flex-end;
+    font-size: 1rem;
+    font-weight: 100;
+    border-radius: 25px;
+    background:rgba(48, 188, 237, 0.2); 
+    color: #30bced;
+    padding: 0.5rem 5rem 0.5rem 2rem;
+}
+
+.sign-up__form form {
+    display: grid;
+    grid-template-columns: 15rem;
+    grid-auto-rows: 2.7rem;
+    grid-row-gap: 1rem;
+
+}
+
+.sign-up__form form input, 
+.sign-up__form form select {
+    border: 1px solid #30bced;
+    border-radius: 25px;
+    padding: 1.5rem 1.2rem;
+}
+
+.sign-up__form form input:focus, 
+.sign-up__form form select:focus {
+    outline: none;
+    border-color: #30bced;
+}
+
+
+
+.sign-up__form form button {
+    border: 1px solid white;
+    border-radius: 25px ;
+    color: #30bced;
+    background:rgba(48, 188, 237, 0.2);
+    padding: 1rem 1.2rem ;
+    padding-bottom: 1.8rem;
+}
+
+.sign-up__checkbox {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.para {
+    margin-top: 1rem;
+    color: #30bced;
+}
+
+.para a {
+    color: black;
+}
